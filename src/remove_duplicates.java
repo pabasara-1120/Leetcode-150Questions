@@ -1,8 +1,6 @@
-import java.lang.reflect.Array;
 import java.util.Arrays;
-import java.util.HashMap;
 
-public class remove_dublicates {
+public class remove_duplicates {
     public int majorityElement(int[] nums) {
         Arrays.sort(nums);
         int i=0;
